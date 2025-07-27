@@ -1,0 +1,31 @@
+# Core dependencies for Vietnamese Voice Translation Pipeline
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+numpy>=1.21.0
+huggingface_hub>=0.16.0
+
+# For F5-TTS Vietnamese model (zalopay/vietnamese-tts)
+f5-tts>=0.0.1
+
+# For audio processing
+librosa>=0.9.0
+soundfile>=0.12.0
+
+# For video processing (step1 and step5)
+moviepy>=1.0.3
+ffmpeg-python>=0.2.0
+
+# For transcription (step2)
+openai-whisper
+
+# For translation (step3) 
+# transformers already included above
+
+# Utility libraries
+tqdm>=4.64.0
+pathlib2>=2.3.0
+json5>=0.9.0
+
+# Optional: for better performance
+accelerate>=0.20.0
