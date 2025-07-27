@@ -132,7 +132,6 @@ dmypy.json
 Thumbs.db
 
 # Project-specific output files
-output_*.json
 translated_audio.wav
 *.wav
 *.mp4
